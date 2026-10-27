@@ -6,7 +6,7 @@
 </p>
 
 <p align="left">
-  <a href="https://simeon-portfolio-nine.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-0e75b6?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
+  <a href="https://simeon-portfolio-v2.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-0e75b6?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
   <a href="mailto:msimeon937@gmail.com"><img src="https://img.shields.io/badge/Email-msimeon937%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://linkedin.com/in/Symoh-42"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
@@ -34,7 +34,7 @@ I'm a software engineer with **5+ years** of experience building scalable, user-
 | [CarStore Kenya](https://carstore.co.ke/) | Premium SUV dealership: inventory, financing and auto-care | Next.js · Tailwind CSS |
 | [Villa Leone Nairobi](https://www.villaleonenairobi.com/) | Boutique hotel site with bookings and rooms | Django · Tailwind CSS |
 
-👉 See everything on my [portfolio](https://simeon-portfolio-nine.vercel.app/).
+👉 See everything on my [portfolio](https://simeon-portfolio-v2.vercel.app/).
 
 ---
 
