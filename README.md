@@ -1,51 +1,62 @@
-<h1 align="left">Hi 👋, I'm Simeon Mwangi</h1>
+# Simeon Mwangi — Portfolio
 
-<br>
+A fast, editorial portfolio for a full-stack developer & software engineer,
+built with **Next.js 14 (App Router)** and **Tailwind CSS**.
 
-<h2>🚀 About Me</h2>
-<p align="left">Highly passionate about Software Development & Programming in general. I am a Full Stack Web Developer with strong focus on Backend Development. For the past three years I have worked with multiple clients in various project based work. Currently working with Greenbear as a Web Developer.</p>
+## Design
 
+- **Theme:** warm "paper" editorial — off-white, ink-black, single cobalt accent.
+- **Type:** _Bricolage Grotesque_ (display) · _Hanken Grotesk_ (body) ·
+  _JetBrains Mono_ (technical labels), loaded via `<link>`.
+- Paper grain, scroll-reveal animations, tech marquee, "open to work" pulse,
+  mono section numbering.
 
-- 💬 Ask me about **Python, Django, Javascript, React.Js, ReactNative.Js**
+## Pages / sections
 
-- 📫 Want to talk about project? Reach me at **msimeon937@gmail.com**
+- `/` — Hero · About · Services · Selected Work · Experience · Skills · Contact
+- `/work` — full, filterable project archive (filter by category)
 
-<br>
+## Live project previews
 
-<h2 align="left">🛠️ My Skills</h2>
-<a href="https://www.mysql.com/" target="_blank"><img width="50" src="https://github.com/tandpfun/skill-icons/blob/main/icons/MySQL-Dark.svg" alt="Mysql"></a>
-<a href="https://www.postgresql.org/" target="_blank"><img width="50" src="https://github.com/tandpfun/skill-icons/blob/main/icons/PostgreSQL-Dark.svg" alt="Postgre"></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img width="50" src="https://github.com/tandpfun/skill-icons/blob/main/icons/JavaScript.svg" alt="Javascript"></a>
-<a href="https://www.typescriptlang.org/" target="_blank"><img width="50" src="https://github.com/tandpfun/skill-icons/blob/main/icons/TypeScript.svg" alt="TypeScript.js"></a>
-<a href="https://react.dev/" target="_blank"><img width="50" src="https://github.com/tandpfun/skill-icons/blob/main/icons/React-Dark.svg" alt="React.js"></a>
-<a href="https://getbootstrap.com/" target="_blank"><img width="50" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Bootstrap.svg" alt="Bootstrap"></a>
-<a href="https://tailwindcss.com/" target="_blank"><img width="50" src="https://github.com/tandpfun/skill-icons/blob/main/icons/TailwindCSS-Dark.svg" alt="TailwindCSS"></a>
-<a href="https://www.python.org/" target="_blank"><img width="50" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Python-Dark.svg" alt="Python"></a>
-<a href="https://www.djangoproject.com/" target="_blank"><img width="50" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Django.svg" alt="Django"></a>
+Project thumbnails are **live screenshots** generated from each URL via
+WordPress mShots (`s.wordpress.com/mshots`) — free, no API key. The first time
+a screenshot is requested it may show a "loading preview…" state while it's
+captured, then it's cached and loads instantly. See `shot()` in
+`data/portfolio.js`.
 
-<br>
-<br>
+> Want crisper/faster thumbnails? Take real screenshots, drop them in
+> `public/shots/`, and point each project's image at the local file (swap the
+> `shot(project.url)` call in `components/ProjectCard.js`).
 
-<h2 align="left">📈 Github Stats:</h3>
-<p>
-   <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Symoh-42&show_icons=true&locale=en&layout=compact" alt="Symoh-42" />
-</p>
-<p>
-   &nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Symoh-42&show_icons=true&locale=en" alt="Symoh-42" />
-</p>
+## Getting started
 
-<br>
+```bash
+npm install
+npm run dev      # http://localhost:3000
+```
 
-<h2 align="left">☕ Connect with me:</h2>
-<div id="badges">
-   <a align="left" href="https://linkedin.com/in/linkedin.com/in/Symoh-42" target="blank">
-      <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="linkedin.com/in/Symoh-42" height="30" width="40" />
-<!--    </a>
-   <a align="left" href="https://fb.com/https://www.facebook.com/fahim.anzam.dip" target="blank">
-      <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/fahim.anzam.dip" height="30" width="40" />
-   </a> -->
-   <img align="right" alt="GitHub followers" src="https://img.shields.io/github/followers/Symoh-42">
-   <img align="right" src="https://komarev.com/ghpvc/?username=Symoh-42&label=Profile%20views&color=0e75b6&style=flat" alt="Symoh-42" />
-</div>
+Build for production:
 
+```bash
+npm run build && npm start
+```
 
+Deploy to **Vercel** (recommended): push to GitHub and import the repo — zero config.
+
+## Editing your content
+
+Everything lives in **`data/portfolio.js`**:
+
+- `profile` — name, roles, tagline, contact, stats, CV path, availability.
+- `projects` — add/remove/reorder; set `featured: true` to show on the home page.
+  Each project's screenshot is auto-generated from its `url`. Tech `tags` are
+  best-effort — adjust to the real stack where needed.
+- `services`, `skillGroups`, `experience`, `education`, `techMarquee`.
+
+Your CV is bundled at `public/Simeon_Mwangi_CV.pdf` and wired to every "Résumé"
+button.
+
+## Contact (as configured)
+
+- msimeon937@gmail.com · +254 704 662 432 · Nairobi, Kenya
+- Current portfolio: https://simeon-portfolio-nine.vercel.app/
