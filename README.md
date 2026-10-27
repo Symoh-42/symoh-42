@@ -1,62 +1,71 @@
-# Simeon Mwangi — Portfolio
+<h1 align="left">Hi 👋, I'm Simeon Mwangi</h1>
 
-A fast, editorial portfolio for a full-stack developer & software engineer,
-built with **Next.js 14 (App Router)** and **Tailwind CSS**.
+<p align="left">
+  <b>Full-Stack Developer · Software Engineer · Backend-focused</b><br>
+  📍 Nairobi, Kenya
+</p>
 
-## Design
+<p align="left">
+  <a href="https://simeon-portfolio-nine.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-0e75b6?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
+  <a href="mailto:msimeon937@gmail.com"><img src="https://img.shields.io/badge/Email-msimeon937%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://linkedin.com/in/Symoh-42"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+</p>
 
-- **Theme:** warm "paper" editorial — off-white, ink-black, single cobalt accent.
-- **Type:** _Bricolage Grotesque_ (display) · _Hanken Grotesk_ (body) ·
-  _JetBrains Mono_ (technical labels), loaded via `<link>`.
-- Paper grain, scroll-reveal animations, tech marquee, "open to work" pulse,
-  mono section numbering.
+---
 
-## Pages / sections
+## 🚀 About Me
 
-- `/` — Hero · About · Services · Selected Work · Experience · Skills · Contact
-- `/work` — full, filterable project archive (filter by category)
+I'm a software engineer with **5+ years** of experience building scalable, user-friendly web and mobile applications. I work across the full stack, with a strong focus on **backend development and system architecture**.
 
-## Live project previews
+- 💼 Currently a Web Developer at **Greenbear Technologies**, and building client projects through **Ohmspace**
+- 🚢 **25+ projects shipped** across **10+ industries** — FinTech, hospitality, logistics, automotive, e-commerce and more
+- 💬 Ask me about **Python, Django, JavaScript, TypeScript, React, Next.js and React Native**
+- 📫 Want to talk about a project? Reach me at **msimeon937@gmail.com**
 
-Project thumbnails are **live screenshots** generated from each URL via
-WordPress mShots (`s.wordpress.com/mshots`) — free, no API key. The first time
-a screenshot is requested it may show a "loading preview…" state while it's
-captured, then it's cached and loads instantly. See `shot()` in
-`data/portfolio.js`.
+---
 
-> Want crisper/faster thumbnails? Take real screenshots, drop them in
-> `public/shots/`, and point each project's image at the local file (swap the
-> `shot(project.url)` call in `components/ProjectCard.js`).
+## 🔨 Featured Work
 
-## Getting started
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [RentalPay](https://rentalpay.africa/) | Rental management: rent collection, tenants, maintenance, M-PESA → bank integration | Django · PostgreSQL · M-PESA |
+| [PrimeText](https://primetext.africa/) | Bulk-SMS platform with direct carrier connections to Safaricom, Airtel and Telkom | Django · REST API |
+| [Credit Scoring Model](https://credit-scoring-model-eight.vercel.app/) | Loan creditworthiness scoring and risk visualisation | React · Tailwind CSS |
+| [CarStore Kenya](https://carstore.co.ke/) | Premium SUV dealership: inventory, financing and auto-care | Next.js · Tailwind CSS |
+| [Villa Leone Nairobi](https://www.villaleonenairobi.com/) | Boutique hotel site with bookings and rooms | Django · Tailwind CSS |
 
-```bash
-npm install
-npm run dev      # http://localhost:3000
-```
+👉 See everything on my [portfolio](https://simeon-portfolio-nine.vercel.app/).
 
-Build for production:
+---
 
-```bash
-npm run build && npm start
-```
+## 🛠️ Tech Stack
 
-Deploy to **Vercel** (recommended): push to GitHub and import the repo — zero config.
+**Languages & Backend**
 
-## Editing your content
+[![Backend](https://skillicons.dev/icons?i=python,django,js,ts,postgres,mysql&theme=dark)](https://skillicons.dev)
 
-Everything lives in **`data/portfolio.js`**:
+**Frontend & Mobile**
 
-- `profile` — name, roles, tagline, contact, stats, CV path, availability.
-- `projects` — add/remove/reorder; set `featured: true` to show on the home page.
-  Each project's screenshot is auto-generated from its `url`. Tech `tags` are
-  best-effort — adjust to the real stack where needed.
-- `services`, `skillGroups`, `experience`, `education`, `techMarquee`.
+[![Frontend](https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap,html,css&theme=dark)](https://skillicons.dev)
 
-Your CV is bundled at `public/Simeon_Mwangi_CV.pdf` and wired to every "Résumé"
-button.
+**Tools**
 
-## Contact (as configured)
+[![Tools](https://skillicons.dev/icons?i=git,github,vercel,vscode,linux&theme=dark)](https://skillicons.dev)
 
-- msimeon937@gmail.com · +254 704 662 432 · Nairobi, Kenya
-- Current portfolio: https://simeon-portfolio-nine.vercel.app/
+---
+
+## 📈 GitHub Stats
+
+<p align="left">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Symoh-42&show_icons=true&locale=en&theme=transparent&hide_border=true" alt="Simeon's GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs?username=Symoh-42&layout=compact&locale=en&theme=transparent&hide_border=true" alt="Top languages" />
+</p>
+
+<p align="left">
+  <img src="https://img.shields.io/github/followers/Symoh-42?label=Followers&style=flat&color=0e75b6" alt="GitHub followers" />
+  <img src="https://komarev.com/ghpvc/?username=Symoh-42&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+</p>
+
+---
+
+<p align="center"><i>Thanks for stopping by! ⭐ Feel free to check out my repos and reach out.</i></p>
